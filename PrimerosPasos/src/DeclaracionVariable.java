@@ -35,7 +35,7 @@ public class DeclaracionVariable {
 		y el FLUJO va de arriba hacia abajo
 		*/
 		edadMaria=34;
-		System.out.println(edadMaria);
+		System.out.println(edadMaria); //ahora SI lo imprme
 		
 		
 		
