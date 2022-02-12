@@ -23,12 +23,6 @@ public class ConcatenacionStrings {
 		/*Pero se soluciona con PARENTESIS*/
 		System.out.println("4 El salario es: " + (salario + 300) + " a dia de hoy");
 		
-		
-		/*lo que sigue es prueba del video que sigue 
-		 * video 9*/
-		
-		
-		
 		double raiz=Math.sqrt(65.899);
 		System.out.println(raiz);
 	}

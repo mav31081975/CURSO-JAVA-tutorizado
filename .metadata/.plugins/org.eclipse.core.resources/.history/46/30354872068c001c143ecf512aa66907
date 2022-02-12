@@ -14,23 +14,12 @@ public class ConcatenacionStrings {
 		
 		System.out.println("2 El salario es: " + salario*2 + " a dia de hoy");
 		/* PERO OJO CON LAS SEUMA en lo que viene, toma todos
-		 * los números como string 
-		 * porque asume el operador suma como concatenacion
-		 * y da un resultado inesperado de 1850.55300*/
+		 * los números como string y da 1850.55300*/
 		
 		System.out.println("3 El salario es: " + salario + 300 + " a dia de hoy");
 		
 		/*Pero se soluciona con PARENTESIS*/
 		System.out.println("4 El salario es: " + (salario + 300) + " a dia de hoy");
-		
-		
-		/*lo que sigue es prueba del video que sigue 
-		 * video 9*/
-		
-		
-		
-		double raiz=Math.sqrt(65.899);
-		System.out.println(raiz);
 	}
 
 }
