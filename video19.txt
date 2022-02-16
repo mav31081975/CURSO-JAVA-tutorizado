@@ -24,7 +24,7 @@ public class EntradaScanner {
 		
 		System.out.println("hola " + nombre);// me saluda!
 		
-		System.out.println("+++++++++ video 19   nextint   +++++++++++++++++++++++++++"); 
+		System.out.println("+++++++++ video 19   nextint   ++++++++++++++++++++++++++"); 
 		
 		System.out.println("Introuduce el primer número "); 
 		
