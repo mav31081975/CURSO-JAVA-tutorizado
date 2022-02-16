@@ -8,9 +8,9 @@ public class EntradaScanner {
 		// TODO Auto-generated method stub
 
 		
-		Scanner entrada=new Scanner(System.in); //creé mi primero BOJETO!!
+		Scanner entrada=new Scanner(System.in); //creÃ© mi primero BOJETO!!
 		
-		//hay una advertencia que scanner no se cerró, consume recursos (explica en 6:00)
+		//hay una advertencia que scanner no se cerrÃ³, consume recursos (explica en 6:00)
 		
 		/*ese objeto pertenece a la clase scanner y DECIDI llamarlo entrada
 		 * ese objeto escanea la consola (system) a la espera de info
@@ -26,18 +26,18 @@ public class EntradaScanner {
 		
 		System.out.println("+++++++++ video 19   nextint   +++++++++++++++++++++++++++"); 
 		
-		System.out.println("Introuduce el primer número "); 
+		System.out.println("Introuduce el primer nÃºmero "); 
 		
 		int numero1=entrada.nextInt();
 		
-		System.out.println("Introuduce el segundo número "); 
+		System.out.println("Introuduce el segundo nÃºmero "); 
 		
 		int numero2=entrada.nextInt();
 		
-		System.out.println("la suma de esos números es " + (numero1+numero2));// 
+		System.out.println("la suma de esos nÃºmeros es " + (numero1+numero2));// 
 	
 		
-		entrada.close(); //esto cierra elscanner y quita la advertencia en línea 11(no era error)
+		entrada.close(); //esto cierra elscanner y quita la advertencia en lÃ­nea 11(no era error)
 		
 	}
 
