@@ -39,6 +39,41 @@ public class EntradaScanner {
 		
 		entrada.close(); //esto cierra elscanner y quita la advertencia en línea 11(no era error)
 		
+		 //System.out.println("############################  video  20   #########################################");
+		 
+		
+		/*
+		 * 
+		 * 
+		 Scanner entrada2=new Scanner(System.in);
+		 
+		 System.out.println("Introduce tu nombre");
+		 
+		 String nombre2=entrada2.nextLine();
+		 
+		 System.out.println("introduce tu edad");
+		 
+		 int edad=entrada2.nextInt();
+		 
+		 System.out.println("Te llamas "+ nombre2+ "y tienes " + edad + " años");
+		 
+		 entrada2.close()
+		 
+		
+		 *por que mierda eso no funciona???
+		 *
+		 *
+		 */
+		 
+		 
+		 
+		 
+		
+		
+		
+		
 	}
 
 }
+
+
