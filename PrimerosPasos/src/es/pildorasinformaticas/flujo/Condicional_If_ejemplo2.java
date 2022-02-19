@@ -29,7 +29,9 @@ public class Condicional_If_ejemplo2 {
 			
 			System.out.println("sos un maduro");
 			
-		} else {System.out.println("sos un viejo");}
+		} else {System.out.println("sos un viejo");
+		
+		}
 		
 	}
 
