@@ -16,20 +16,24 @@ public class Anidamiento_if
 		int edad=Integer.parseInt
 				(JOptionPane.showInputDialog
 						("introduce tu edad"));
+		String carnet;
+		
 		
 		if (edad>=18 ) 
 		
 		{
 		
-		String carnet=JOptionPane.showInputDialog("tenes carnet?");
+		 carnet=JOptionPane.showInputDialog("tenes carnet?");
 		
-		if (carnet.equalsIgnoreCase("si")) 
-		{JOptionPane.showMessageDialog(null, "comprá" );}
+		if (carnet.equalsIgnoreCase("si")
+				||carnet.equalsIgnoreCase("sí"))
+						{JOptionPane.showMessageDialog(null, "comprá" );}
 		else {JOptionPane.showMessageDialog(null, "vas a chocar, mejor no te vendo" );}
 		
 			
 		}
-		else {JOptionPane.showMessageDialog(null, "no hay posibilidad, sos menor de edad" );}
+		else {JOptionPane.showMessageDialog(null, "no hay posibilidad,"
+				+ " sos menor de edad" );}
 		
 			
 		
