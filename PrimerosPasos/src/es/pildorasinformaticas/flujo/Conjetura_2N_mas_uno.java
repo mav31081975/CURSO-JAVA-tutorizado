@@ -4,7 +4,7 @@ import javax.swing.JOptionPane;
 
 public class Conjetura_2N_mas_uno {
 
-	public static void main(String[] args) {
+	public static void main(String[] args)  {
 		// TODO Auto-generated method stub
 
 		// evaluara la conjetura de goldbach , llamada "2n + 1" , dado un entero de dato ingresado
