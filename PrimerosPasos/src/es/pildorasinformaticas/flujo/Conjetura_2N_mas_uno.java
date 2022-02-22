@@ -12,6 +12,7 @@ public class Conjetura_2N_mas_uno {
 		int numero= Integer.parseInt
 				(JOptionPane.showInputDialog
 						("escribi un entero no muuuuy largo, 9 cifras máximo "));
+		System.out.println(numero);
 		
 		while (numero!=1) {
 		
@@ -20,9 +21,9 @@ public class Conjetura_2N_mas_uno {
 			
 			int mitad= numero/2;
 			
-			System.out.println(mitad);
+			//System.out.println(mitad);
 			
-			if (mitad*2==numero) {System.out.println("el número es par");
+			if (mitad*2==numero) {System.out.println("el número es par, por ende lo divido por 2");
 			numero= numero/2;
 			System.out.println("la mitad es " + numero);}
 			
