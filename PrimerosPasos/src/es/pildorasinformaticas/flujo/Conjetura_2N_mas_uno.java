@@ -13,48 +13,10 @@ public class Conjetura_2N_mas_uno {
 				(JOptionPane.showInputDialog
 						("escribi un entero no muuuuy largo, 9 cifras máximo "));
 		
-		/*ahora SI EL NUMERO ES PAR debe dividirlo por dos y volverlo a nombrar igual
-		 * mientras que si es par debe multiplicarse por tres y al resultado sumarle 1
-		 * y volverlo a nombrar e imprimirlo en una nueva lìnea, hasta que llegue al valor 1
-		 * 
-		 * 
-		 * 
-		 */
+		while (numero!=1) {
 		
 		
-		// evaluara la conjetura de goldbach , llamada "2n + 1" , dado un entero de dato ingresado
 		
-				
-				/*ahora SI EL NUMERO ES PAR debe dividirlo por dos y volverlo a nombrar igual
-				 * mientras que si es par debe multiplicarse por tres y al resultado sumarle 1
-				 * y volverlo a nombrar e imprimirlo en una nueva lìnea, hasta que llegue al valor 1
-				 * 
-				 * 
-				 * 
-				 */
-				
-				
-				
-		
-		
-		/*if (numero>1) {
-			
-			System.out.println("alto");
-			
-			int resto = numero%2; 
-			
-			System.out.println(resto);
-			 if (resto=0) {System.out.println("el nùmero "+"es par") ;
-			
-			
-			/*si resto es 1 es impar, si resto es cero es par
-			 * con eso entro a que mierda hacer con la variable
-			 */
-			
-			//System.out.println(resto);
-			
-			//if (resto=1) { System.out.println("El número "+ numero + " es impar, por ende lo multiplico por 3 y le sumo uno" );}
-			
 			
 			int mitad= numero/2;
 			
@@ -66,6 +28,7 @@ public class Conjetura_2N_mas_uno {
 			
 			else {System.out.println("el numero es impar");
 			System.out.println("multiplico por 3 y le sumo 1 y queda "+ (numero*3+1));
+			numero=numero*3+1;
 			}
 			
 					
@@ -74,7 +37,7 @@ public class Conjetura_2N_mas_uno {
 			
 		}
 	
-}
+}}
 		
 		
 		
