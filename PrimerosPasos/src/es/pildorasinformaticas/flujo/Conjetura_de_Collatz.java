@@ -2,12 +2,14 @@ package es.pildorasinformaticas.flujo;
 
 import javax.swing.JOptionPane;
 
-public class Golbach_Mejorado {
+public class Conjetura_de_Collatz {
+	
+
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		// evaluara la conjetura de goldbach , llamada "2n + 1" , dado un entero de dato ingresado
+		// evaluara la conjetura de collatz, llamada "3n + 1" , dado un entero de dato ingresado
 		
 		int numero= Integer.parseInt
 				(JOptionPane.showInputDialog
@@ -56,5 +58,7 @@ public class Golbach_Mejorado {
 		
 		
 }
+
+
 
 }
