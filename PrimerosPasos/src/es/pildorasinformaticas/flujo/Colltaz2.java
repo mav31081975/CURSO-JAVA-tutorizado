@@ -20,7 +20,7 @@ public class Colltaz2 {
 		{
 				int numero= numero_inicial;
 						
-				System.out.println(numero);
+				//System.out.println(numero);
 				//int numero1=numero; // es necesario????
 			
 				int iteraciones=0;
@@ -29,15 +29,15 @@ public class Colltaz2 {
 				
 					double mitad= numero/2;
 					
-					if (mitad*2==numero) {System.out.println("el número es par, por ende lo divido por 2");
+					if (mitad*2==numero) {//System.out.println("el número es par, por ende lo divido por 2");
 					numero= numero/2;
-					System.out.println("la mitad es " + numero);
+					//System.out.println("la mitad es " + numero);
 					iteraciones++ ;
 					//numero_inicial++;
 					}
 					
-					else {System.out.println("el numero es impar");
-					System.out.println("multiplico por 3 y le sumo 1 y queda "+ (numero*3+1));
+					else {//System.out.println("el numero es impar");
+					//System.out.println("multiplico por 3 y le sumo 1 y queda "+ (numero*3+1));
 					numero=numero*3+1;
 					iteraciones++;
 					
