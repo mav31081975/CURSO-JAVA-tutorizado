@@ -16,13 +16,13 @@ public class Colltaz2 {
 						("escribi un entero hasta el que quieras  verificar collatz, ojo, tiene que ser mayor o igual al anterior "));
 		
 		
-		int numero_inicial=NUMERO1;
+		long numero_inicial=NUMERO1; ///cambio de int a long
 		int iteraciones_totales=0;
 		
 		while (numero_inicial<NUMERO2+1) 
 		
 		{
-				int numero= numero_inicial;
+				long numero= numero_inicial; //idem a long
 						
 				//System.out.println(numero);
 				//int numero1=numero; // es necesario????

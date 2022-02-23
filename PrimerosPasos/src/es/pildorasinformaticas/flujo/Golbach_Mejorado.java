@@ -9,11 +9,11 @@ public class Golbach_Mejorado { //probarlo con 113383
 
 		// evaluara la conjetura de goldbach , llamada "2n + 1" , dado un entero de dato ingresado
 		
-		int numero= Integer.parseInt
+		long numero= Integer.parseInt
 				(JOptionPane.showInputDialog
 						("escribi un entero no muuuuy largo"));
 		System.out.println(numero);
-		int numero1=numero;
+		long numero1=numero;
 		
 		int iteraciones=0;
 		
@@ -23,7 +23,7 @@ public class Golbach_Mejorado { //probarlo con 113383
 		
 		
 			
-			int mitad= numero/2;
+			long mitad= numero/2;
 			
 			//System.out.println(mitad);
 			
