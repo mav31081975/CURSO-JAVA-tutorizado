@@ -32,7 +32,7 @@ public class Colltaz2 {
 					if (mitad*2==numero) {System.out.println("el número es par, por ende lo divido por 2");
 					numero= numero/2;
 					System.out.println("la mitad es " + numero);
-					iteraciones++;
+					iteraciones++ ;
 					}
 					
 					else {System.out.println("el numero es impar");
