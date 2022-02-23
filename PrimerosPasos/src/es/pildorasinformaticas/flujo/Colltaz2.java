@@ -3,6 +3,10 @@ import javax.swing.JOptionPane;
 public class Colltaz2 {
 	public static void main(String[] args) {
 		
+		//funciona imprimiendo todo en panatalla desde 1 a 1343, luego ya al 1344 obvia los primeros 271 números  ¿¿còmo hago para verlos?
+		//para otros intervalos igual de largos que (1,1342) tambièn obvia muchos1
+		
+		
 		final int NUMERO1= Integer.parseInt //desde que numero quiero verificr la conjetura,
 				(JOptionPane.showInputDialog
 						("escribi un entero desde el que quieras  verificar collatz, NO EL 1 QUEES TRIVIAL "));
@@ -13,9 +17,9 @@ public class Colltaz2 {
 		
 		
 		int numero_inicial=NUMERO1;
+		int iteraciones_totales=0;
 		
-		
-		while (numero_inicial<NUMERO2) 
+		while (numero_inicial<NUMERO2+1) 
 		
 		{
 				int numero= numero_inicial;
@@ -24,6 +28,9 @@ public class Colltaz2 {
 				//int numero1=numero; // es necesario????
 			
 				int iteraciones=0;
+				
+				//int iteraciones_totales=0;
+				
 								
 				while (numero!=1) {
 				
@@ -33,6 +40,8 @@ public class Colltaz2 {
 					numero= numero/2;
 					//System.out.println("la mitad es " + numero);
 					iteraciones++ ;
+					
+					
 					//numero_inicial++;
 					}
 					
@@ -47,13 +56,14 @@ public class Colltaz2 {
 				
 				System.out.println("Para el número " + numero_inicial+ " se necesitaron "+ iteraciones+ " iteraciones para llegar al número 1");
 				numero_inicial++;
+				iteraciones_totales=iteraciones_totales+iteraciones;
 				
 				//System.out.println("Por ende se verifica la Conjetura de Collatz para el número "+ numero1);
 				//numero_inicial=numero;
 			
 		}
 
-			System.out.println("oooo");
+			System.out.println("Se necesitaron "+iteraciones_totales+ " iteraciones en total");
 	}
 	
 }

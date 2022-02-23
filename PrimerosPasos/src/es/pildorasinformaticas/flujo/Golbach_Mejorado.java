@@ -2,7 +2,7 @@ package es.pildorasinformaticas.flujo;
 
 import javax.swing.JOptionPane;
 
-public class Golbach_Mejorado {
+public class Golbach_Mejorado { //probarlo con 113383
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
