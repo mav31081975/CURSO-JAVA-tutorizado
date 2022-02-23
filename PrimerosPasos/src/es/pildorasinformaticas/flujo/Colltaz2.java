@@ -1,9 +1,6 @@
 package es.pildorasinformaticas.flujo;
-
 import javax.swing.JOptionPane;
-
 public class Colltaz2 {
-
 	public static void main(String[] args) {
 		
 		int numero_inicial= Integer.parseInt //desde que numero quiero verificr la conjetura,
@@ -21,9 +18,6 @@ public class Colltaz2 {
 		while (numero_inicial<numero_final) 
 		
 		{
-			
-
-
 				int numero= NUMERO_INICIAL;
 						
 				System.out.println(numero);
@@ -46,39 +40,17 @@ public class Colltaz2 {
 					numero=numero*3+1;
 					iteraciones++;
 					numero_inicial++;}
-					
-							
-					
-					
-					
-				}
-				System.out.println("");
-				System.out.println("");
-				System.out.println("");
-				
+								}
 				System.out.println("se necesitaron "+ iteraciones+ " iteraciones para llegar al número 1");
-				
-				System.out.println("");
-				System.out.println("");
-				
 				System.out.println("Por ende se verifica la Conjetura de Collatz para el número "+ numero1);
-				
-				
-		}
-
-
-			
-			
-			
-			
-			
-			
-			
 			
 		}
+
+			
+	}
+	
+}
 	
 	
 		
-		//System.out.println("Se probò la Conjetura de Collatz para los " + (NUMERO_FINAL-NUMERO_INICIAL+1)+ " números entre " +NUMERO_INICIAL + " y " + NUMERO_FINAL + ", ambos incluìdos");
-
-}
+		
