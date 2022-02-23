@@ -40,12 +40,14 @@ public class Colltaz2 {
 					System.out.println("multiplico por 3 y le sumo 1 y queda "+ (numero*3+1));
 					numero=numero*3+1;
 					iteraciones++;
-					//numero_inicial++;
+					
 					} 
 					
 								}
+				
+				System.out.println("Para el número " + numero_inicial+ " se necesitaron "+ iteraciones+ " iteraciones para llegar al número 1");
 				numero_inicial++;
-				//System.out.println("se necesitaron "+ iteraciones+ " iteraciones para llegar al número 1");
+				
 				//System.out.println("Por ende se verifica la Conjetura de Collatz para el número "+ numero1);
 				//numero_inicial=numero;
 			
