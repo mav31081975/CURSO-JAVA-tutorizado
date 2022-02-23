@@ -11,11 +11,11 @@ public class Golbach_Mejorado { //probarlo con 113383
 		
 		long numero= Integer.parseInt
 				(JOptionPane.showInputDialog
-						("escribi un entero no muuuuy largo"));
+						("escribi un entero no muuuuuuuuuuuy largo, pero hasta 2147 millones aguanta"));
 		System.out.println(numero);
 		long numero1=numero;
 		
-		int iteraciones=0;
+		long iteraciones=0; //era int
 		
 		
 		while (numero!=1) {

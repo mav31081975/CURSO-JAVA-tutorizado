@@ -7,17 +7,17 @@ public class Colltaz2 {
 		//para otros intervalos igual de largos que (1,1342) tambièn obvia muchos1
 		
 		
-		final int NUMERO1= Integer.parseInt //desde que numero quiero verificr la conjetura,
+		final long NUMERO1= Integer.parseInt //desde que numero quiero verificr la conjetura,
 				(JOptionPane.showInputDialog
 						("escribi un entero desde el que quieras  verificar collatz, NO EL 1 QUEES TRIVIAL "));
 				
-		final int NUMERO2= Integer.parseInt  //hasta què nùmero quiero verificar la conjetura								
+		final long NUMERO2= Integer.parseInt  //hasta què nùmero quiero verificar la conjetura								
 				(JOptionPane.showInputDialog
 						("escribi un entero hasta el que quieras  verificar collatz, ojo, tiene que ser mayor o igual al anterior "));
 		
 		
 		long numero_inicial=NUMERO1; ///cambio de int a long
-		int iteraciones_totales=0;
+		long iteraciones_totales=0; //era int y andaba
 		
 		while (numero_inicial<NUMERO2+1) 
 		
@@ -27,14 +27,14 @@ public class Colltaz2 {
 				//System.out.println(numero);
 				//int numero1=numero; // es necesario????
 			
-				int iteraciones=0;
+				long iteraciones=0; //era int y andaba
 				
 				//int iteraciones_totales=0;
 				
 								
 				while (numero!=1) {
 				
-					double mitad= numero/2;
+					long mitad= numero/2; //era double y andaba
 					
 					if (mitad*2==numero) {//System.out.println("el número es par, por ende lo divido por 2");
 					numero= numero/2;
