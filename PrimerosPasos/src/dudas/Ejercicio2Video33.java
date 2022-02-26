@@ -31,8 +31,10 @@ public class Ejercicio2Video33 {
 			 
 		 {
 			 String letrita= email.substring(i,i); //es el string sacado del email
+			 System.out.println(letrita);
+			 boolean respuesta=arroba.equals(letrita);
 			 
-			 arroba.equalsIgnoreCase(letrita); 
+			 System.out.println(respuesta);
 			 
 			 //compara si el string es una arroba, si es si debe verificar que no haya otra
 			 //pero si es no , debe seguir verificando
