@@ -8,9 +8,14 @@ public class Ejercicio2Video33 {
 		// TODO Auto-generated method stub
 
 		String email = JOptionPane.showInputDialog("ingrese su email");
-		String punto =(".");
-		String arroba=("@");
+		String punto =".";
+		String arroba="@";
 				
+		//borrar estas dos lineas proximas
+		//String letrita= email.substring(0,1); //es el string sacado del email
+		 //System.out.println(letrita);
+		
+		
 		//System.out.println( email.charAt(0));
 		
 		int largo= email.length();
@@ -30,11 +35,12 @@ public class Ejercicio2Video33 {
 			 //la llave siguiente es lo que hace ese for
 			 
 		 {
-			 String letrita= email.substring(i,i); //es el string sacado del email
+			 String letrita= email.substring(i,(i+1)); //es el string sacado del email
 			 System.out.println(letrita);
 			 boolean respuesta=arroba.equals(letrita);
 			 
-			 System.out.println(respuesta);
+			 
+			 //System.out.println(respuesta);
 			 
 			 //compara si el string es una arroba, si es si debe verificar que no haya otra
 			 //pero si es no , debe seguir verificando
