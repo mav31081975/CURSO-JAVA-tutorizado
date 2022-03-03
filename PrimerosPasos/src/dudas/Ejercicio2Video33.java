@@ -39,6 +39,14 @@ public class Ejercicio2Video33 {
 			 System.out.println(letrita);
 			 boolean respuesta=arroba.equals(letrita);
 			 
+			 if (respuesta=true) { System.out.println("tiene un arroba, pero tiene mas?");
+				 
+				
+				 
+			 }
+			 
+		
+			 
 			 
 			 //System.out.println(respuesta);
 			 
