@@ -1,4 +1,4 @@
- package es.pildoras.arrays;
+package dudas;
 
 //netbook 3 arlenghi 7 2 3 3 21
 public class Ejemplo_Arrays {
@@ -118,17 +118,10 @@ public class Ejemplo_Arrays {
 			System.out.println();
 			System.out.println("****************************VIDEO  38***Relleno simpleficado de arrays");
 			
-			int array38 [][]={
-					
-					{1,2,3},
-					{5,6,4},
-					{9,10,11},
-					{8,8,8},
-					{7,7,7}
-			};
+			int array38 [][]={{1,2,3,4},{5,6,4,8},{9,10,11,12}};
 			
-			for (int ii=0;ii<3;ii++) {
-				for (int zz=0;zz<4;zz++) {
+			for (int i=0;i<5;i++) {
+				for (int z=0;z<4;z++) {
 						
 						System.out.println(array38);}
 				
