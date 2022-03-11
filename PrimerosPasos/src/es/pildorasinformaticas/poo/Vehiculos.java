@@ -1,6 +1,6 @@
 package es.pildorasinformaticas.poo; //video 41 42 
 
-public class Vehiculos {
+public class  Vehiculos {
 
 	//crear un mètodo especial que da estado incial
 	// a los objetis, medoco constructor, LLEVA EL MISMO NOMBRE DE LA CLASE
