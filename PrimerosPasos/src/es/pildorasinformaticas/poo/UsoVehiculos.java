@@ -24,11 +24,10 @@ public class UsoVehiculos {
 		
 		System.out.println(miCoche.getColor()); //genial
 		
-		System.out.println(miCoche.getColorPuertas());
-		miCoche.setColorPuertas(); //blancas
-		System.out.println(miCoche.getColorPuertas());//cambia a verde esmeralda
+		miCoche.setColorPuertas("anaranjado");
 		
-		
+		System.out.println(miCoche.getColorPuertas()); //genial es anaranjado
+		//o sea le  puse mis propios paràmetros al mètodo (funciòn) 
 		
 		
 		

@@ -30,8 +30,8 @@ public class Vehiculos {
 				
 	}  //tengo que establecer un mètodo setter para cambiar alguna de las propiedades
 	
-	public void setColorPuertas() {
-		colorPuertas="verde esmeralda";
+	public void setColorPuertas(String colorDePuertas) {
+		colorPuertas=colorDePuertas; //me va a pedir un string si o si al llamar al metodo
 	}
 	
 	public String getColorPuertas() {
