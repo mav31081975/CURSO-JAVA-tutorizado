@@ -1,6 +1,6 @@
 package es.pildorasinformaticas.poo;
 
-public class UsoVehiculos {
+public  class UsoVehiculos {
 	
 	
 
